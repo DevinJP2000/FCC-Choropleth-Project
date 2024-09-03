@@ -1,0 +1,57 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #b3e6ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#header {
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 2000px;
+    margin: 50px 0 50px 0;
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.5);
+}
+
+#title {
+    font-size: 40px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+#description {
+    font-size: 20px;
+    padding: 10px;
+}
+
+#graph {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.5);
+    padding: 20px 20px 0 20px;
+}
+
+#tooltip {
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    position: absolute;
+    margin: 10px;
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.5);
+}
+
+#legend {
+    margin: 50px;
+    margin-bottom: -70px;
+}
